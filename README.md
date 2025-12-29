@@ -8,7 +8,7 @@
 
 **A powerful multi-agent AI system for automated content creation using CrewAI**
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Architecture](#-architecture) • [Contributing](#-contributing)
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Architecture](#-architecture) 
 
 </div>
 
