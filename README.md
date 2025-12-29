@@ -24,7 +24,6 @@
 - [Usage](#-usage)
 - [Project Structure](#-project-structure)
 - [How It Works](#-how-it-works)
-- [Contributing](#-contributing)
 
 ---
 
@@ -313,25 +312,7 @@ Final Output: Publication-Ready Blog Post
 
 
 
-## 🤝 Contributing
 
-We welcome contributions! Here's how you can help:
-
-### Ways to Contribute
-
-1. **Report Bugs**: Open an issue describing the problem
-2. **Suggest Features**: Share ideas for improvements
-3. **Submit Pull Requests**: Fix bugs or add features
-4. **Improve Documentation**: Help make docs clearer
-5. **Share Examples**: Add use cases and tutorials
-
-### Contribution Process
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ### Development Setup
 
@@ -382,11 +363,9 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ---
 
-## 📞 Support & Contact
+## 📞 Contact
 
-- **Issues**: [GitHub Issues](https://github.com/iitsh/AI-AGENT-KnowledgeHub/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/iitsh/AI-AGENT-KnowledgeHub/discussions)
-- **Email**: your-email@example.com
+- **Email**: rayane06berrada@gmail.com
 
 ---
 
@@ -405,43 +384,8 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 - ✅ OpenAI integration
 - ✅ Jupyter notebook interface
 
-### Upcoming Features
-- 🔲 Web interface for non-technical users
-- 🔲 Multiple AI model support (Claude, Gemini, etc.)
-- 🔲 Custom agent templates
-- 🔲 Content scheduling and publishing
-- 🔲 Analytics and performance tracking
-- 🔲 Multi-language support
-- 🔲 Image generation integration
-- 🔲 PDF export functionality
 
 ---
-
-## ⚡ Performance Tips
-
-1. **Use GPT-4 for Better Quality**: Upgrade to GPT-4 for more sophisticated content
-2. **Adjust Verbosity**: Set `verbose=False` for faster execution
-3. **Optimize Prompts**: Refine agent backstories for better results
-4. **Cache Results**: Store successful outputs to avoid regeneration
-5. **Batch Processing**: Process multiple topics in sequence
-
----
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Issue**: `ModuleNotFoundError: No module named 'crewai'`
-**Solution**: Install CrewAI: `pip install crewai`
-
-**Issue**: `OpenAI API key not found`
-**Solution**: Ensure `.env` file exists with valid API key
-
-**Issue**: `Rate limit exceeded`
-**Solution**: Add delays between requests or upgrade API plan
-
-**Issue**: Jupyter widgets not displaying
-**Solution**: Install ipywidgets: `pip install ipywidgets`
 
 ---
 
@@ -449,7 +393,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ### ⭐ Star this repo if you find it helpful!
 
-Made with ❤️ by the AI Agent KnowledgeHub Team
+Made with ❤️ 
 
 [⬆ Back to Top](#-ai-agent-knowledgehub)
 
