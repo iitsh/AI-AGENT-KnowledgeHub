@@ -24,7 +24,6 @@
 - [Usage](#-usage)
 - [Project Structure](#-project-structure)
 - [How It Works](#-how-it-works)
-- [Examples](#-examples)
 - [Contributing](#-contributing)
 
 ---
@@ -208,38 +207,7 @@ Agents are configured in `index.ipynb`. You can customize:
    result = crew.kickoff(inputs={"topic": "Your Topic Here"})
    ```
 
-### Example Usage
 
-```python
-from crewai import Agent, Task, Crew
-from utils import get_openai_api_key
-
-# Initialize
-openai_api_key = get_openai_api_key()
-
-# Create agents
-planner = Agent(
-    role="Content Planner",
-    goal="Plan engaging content on {topic}",
-    backstory="Expert content strategist...",
-    verbose=True
-)
-
-# Define tasks
-plan = Task(
-    description="Research and outline {topic}",
-    agent=planner,
-    expected_output="Detailed content plan"
-)
-
-# Create and run crew
-crew = Crew(agents=[planner], tasks=[plan], verbose=True)
-result = crew.kickoff(inputs={"topic": "AI Ethics"})
-
-# Display result
-from IPython.display import Markdown
-Markdown(result.raw)
-```
 
 ---
 
@@ -343,32 +311,7 @@ Final Output: Publication-Ready Blog Post
 
 ---
 
-## 📊 Examples
 
-### Input Example
-
-```python
-result = crew.kickoff(inputs={
-    "topic": "Artificial Intelligence"
-})
-```
-
-### Output Structure
-
-The system generates a complete blog post with:
-
-- **Title**: Engaging, SEO-optimized headline
-- **Introduction**: Context and overview
-- **Body Sections**: 
-  - Latest trends
-  - Key players
-  - Recent developments
-  - Target audience analysis
-- **SEO Elements**: Keywords naturally integrated
-- **Resources**: Citations and references
-- **Call-to-Action**: Reader engagement prompt
-
----
 
 ## 🤝 Contributing
 
